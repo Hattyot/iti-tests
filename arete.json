@@ -1,0 +1,6 @@
+{
+    "dockerTimeout": 120,
+    "dockerExtra": "stylecheck",
+    "groupingFolders": ["tests"],
+    "solutionsRepository":"https://gitlab.cs.ttu.ee/iti0102-2020/solutions"
+}
