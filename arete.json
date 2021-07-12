@@ -2,5 +2,5 @@
     "dockerTimeout": 120,
     "dockerExtra": "stylecheck",
     "groupingFolders": ["tests"],
-    "solutionsRepository":"git@gitlab.cs.ttu.ee:ssaart/iti-solutions"
+    "solutionsRepository":"https://gitlab.cs.ttu.ee/ssaart/iti-solutions"
 }
