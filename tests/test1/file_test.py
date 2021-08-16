@@ -6,7 +6,10 @@ def test_dummy_test_always_passes():
 
 
 def test_dummy_test_always_fails():
-    assert False
+    a = 1 + 1
+    b = a + 1
+    c = b + 1
+    assert c == 100
 
 def test_dummy_test_always_fails2():
     assert False, 'assert error message'
