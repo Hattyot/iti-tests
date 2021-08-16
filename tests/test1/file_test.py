@@ -23,6 +23,10 @@ def test_dummy_test_always_fails4():
 def test_dummy_test_always_fails5():
     pytest.fail()
 
+
+def test_dummy_test_always_fails6():
+    pytest.fail("pytest fail message")
+
 #
 @pytest.mark.skip()
 def test_dummy_test_always_skip():
