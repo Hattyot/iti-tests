@@ -8,6 +8,17 @@ def test_dummy_test_always_passes():
 def test_dummy_test_always_fails():
     assert False
 
+def test_dummy_test_always_fails2():
+    assert False, 'assert error message'
+
+
+def test_dummy_test_always_fails3():
+    raise Exception('exception message')
+
+
+def test_dummy_test_always_fails4():
+    raise KeyError('keyerror exception message')
+
 #
 @pytest.mark.skip()
 def test_dummy_test_always_skip():
