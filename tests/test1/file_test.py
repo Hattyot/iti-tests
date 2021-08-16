@@ -19,6 +19,10 @@ def test_dummy_test_always_fails3():
 def test_dummy_test_always_fails4():
     raise KeyError('keyerror exception message')
 
+
+def test_dummy_test_always_fails5():
+    pytest.fail()
+
 #
 @pytest.mark.skip()
 def test_dummy_test_always_skip():
