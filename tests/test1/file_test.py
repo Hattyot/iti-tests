@@ -12,7 +12,10 @@ def test_dummy_test_always_fails():
     assert c == 100
 
 def test_dummy_test_always_fails2():
-    assert False, 'assert error message'
+    a = 1 + 1
+    b = a + 1
+    c = b + 1
+    assert c == 100, 'assert error message'
 
 
 def test_dummy_test_always_fails3():
