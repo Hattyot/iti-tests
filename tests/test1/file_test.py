@@ -3,7 +3,7 @@ import file
 
 
 def test_dummy_test_always_passes():
-    file.main()
+    raise Exception(file.main())
 
 
 def test_dummy_test_always_fails():
