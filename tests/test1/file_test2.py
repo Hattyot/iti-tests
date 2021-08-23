@@ -1,11 +1,5 @@
 import pytest
 
-
-@pytest.mark.skip_testfile()
-def skip_testfile(previous_results: dict):
-    return previous_results['file_test.py']['totalCount'] != previous_results['file_test.py']['passedCount']
-
-
 import file
 
 

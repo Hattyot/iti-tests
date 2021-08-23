@@ -1,7 +1,0 @@
-{
-    "dockerTimeout": 120,
-    "dockerExtra": "stylecheck",
-    "dockerData": {
-        "test_groups": [["file_test.py", "file_test2.py"]]
-    }
-}
