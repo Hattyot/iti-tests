@@ -10,8 +10,7 @@ import file
 
 
 def test_dummy_test_always_passes():
-    # print(test)
-    raise Exception(test)
+    raise Exception()
 
 
 def test_dummy_test_always_fails():
