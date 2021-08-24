@@ -4,7 +4,7 @@ import file
 
 
 def test_dummy_test_always_passes():
-    raise Exception()
+    assert True
 
 
 def test_dummy_test_always_fails():
