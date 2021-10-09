@@ -18,7 +18,7 @@ def ban_some_imports():
 
 
 def take_down_network():
-    sys.meta_path[0].find_spec.__closure__[1].take_down_network()
+    sys.meta_path[0].find_spec.__closure__[1].cell_contents.take_down_network()
 
 
 def no_closure():
